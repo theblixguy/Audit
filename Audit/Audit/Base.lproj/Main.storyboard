@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Audit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oc4-W4-jEO">
+                                <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Audit" id="vzg-Ld-yx6"/>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Made with ❤️ by Suyash Srijan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="doP-P4-110">
+                                <rect key="frame" x="16" y="747" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Audit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v2b-b9-bHj">
+                                <rect key="frame" x="16" y="128" width="343" height="51"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="42"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Audit is an app to check whether the website you're browsing promotes credible, misleading or outright fake news." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m0I-BD-Xan">
+                                <rect key="frame" x="26" y="187" width="323" height="81.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To activate, simply enable the Audit extension in Safari, by clicking the Share button -&gt; More and then turn on Audit." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jUG-ag-10U">
+                                <rect key="frame" x="26" y="293.33333333333331" width="323" height="61"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To use, just press the Share button and select 'Audit'." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="15c-cD-E0U">
+                                <rect key="frame" x="26" y="379.33333333333331" width="323" height="40.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="m0I-BD-Xan" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="26" id="1gS-3b-LGa"/>
+                            <constraint firstItem="Oc4-W4-jEO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="87i-th-id6"/>
+                            <constraint firstItem="jUG-ag-10U" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="26" id="8CO-eR-qjI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="15c-cD-E0U" secondAttribute="trailing" constant="26" id="9uv-cf-gfJ"/>
+                            <constraint firstItem="Oc4-W4-jEO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="CXe-w6-dFZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="doP-P4-110" secondAttribute="bottom" constant="10" id="Czo-Ft-Teo"/>
+                            <constraint firstItem="15c-cD-E0U" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="26" id="EtQ-qI-y7e"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="doP-P4-110" secondAttribute="trailing" constant="16" id="FsZ-jY-uNR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jUG-ag-10U" secondAttribute="trailing" constant="26" id="HbK-0E-cXp"/>
+                            <constraint firstItem="jUG-ag-10U" firstAttribute="top" secondItem="m0I-BD-Xan" secondAttribute="bottom" constant="25" id="LX7-1s-LaG"/>
+                            <constraint firstItem="15c-cD-E0U" firstAttribute="top" secondItem="jUG-ag-10U" secondAttribute="bottom" constant="25" id="Phf-QM-D6q"/>
+                            <constraint firstItem="m0I-BD-Xan" firstAttribute="top" secondItem="v2b-b9-bHj" secondAttribute="bottom" constant="8" id="XfV-Ep-Fbu"/>
+                            <constraint firstItem="v2b-b9-bHj" firstAttribute="top" secondItem="Oc4-W4-jEO" secondAttribute="bottom" constant="40" id="ZtS-85-qPb"/>
+                            <constraint firstItem="doP-P4-110" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="cNx-HQ-eGo"/>
+                            <constraint firstItem="v2b-b9-bHj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="cbd-Cr-ij3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="v2b-b9-bHj" secondAttribute="trailing" constant="16" id="oBa-zA-N6D"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="m0I-BD-Xan" secondAttribute="trailing" constant="26" id="rKS-VM-WEb"/>
+                            <constraint firstItem="Oc4-W4-jEO" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="zop-OH-aoJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="98.275862068965523"/>
+        </scene>
+    </scenes>
+</document>

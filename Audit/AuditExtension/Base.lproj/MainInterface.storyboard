@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ObA-dk-sSI">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Image-->
+        <scene sceneID="7MM-of-jgj">
+            <objects>
+                <viewController title="Image" modalPresentationStyle="formSheet" id="ObA-dk-sSI" customClass="ActionViewController" customModule="AuditExtension" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zMn-AG-sqS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="528"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WarningIcon" translatesAutoresizingMaskIntoConstraints="NO" id="ODM-cB-OlJ">
+                                <rect key="frame" x="112" y="93" width="96" height="96"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="96" id="158-bf-hTX"/>
+                                    <constraint firstAttribute="width" constant="96" id="tuJ-SP-Uu2"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CLICK BAIT" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zcZ-SH-vrn">
+                                <rect key="frame" x="35" y="268.5" width="250" height="33.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6vd-fy-xIn">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="Audit" id="a2M-Uo-sbG">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="done" id="2Ex-PE-rKE">
+                                            <connections>
+                                                <action selector="closeApp:" destination="ObA-dk-sSI" id="hGm-jf-YH0"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This website is not a reliable news source" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pIV-Ug-Cb0">
+                                <rect key="frame" x="16" y="205" width="288" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4gl-Ul-E2y">
+                                <rect key="frame" x="35" y="324" width="250" height="122"/>
+                                <string key="text">Sources that provide generally credible content, but use exaggerated, misleading, or questionable headlines, social media descriptions, and/or images.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Data from opensources.co" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Q4Y-mi-kFk">
+                                <rect key="frame" x="0.0" y="478" width="320" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="l3S-jG-eEY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Q4Y-mi-kFk" firstAttribute="trailing" secondItem="VVe-Uw-JpX" secondAttribute="trailing" id="9Si-ZK-BPo"/>
+                            <constraint firstItem="VVe-Uw-JpX" firstAttribute="trailing" secondItem="zcZ-SH-vrn" secondAttribute="trailing" constant="35" id="9kK-cg-mtg"/>
+                            <constraint firstItem="VVe-Uw-JpX" firstAttribute="trailing" secondItem="4gl-Ul-E2y" secondAttribute="trailing" constant="35" id="F5o-gH-KgP"/>
+                            <constraint firstItem="VVe-Uw-JpX" firstAttribute="bottom" secondItem="Q4Y-mi-kFk" secondAttribute="bottom" constant="10" id="FiM-3p-9HF"/>
+                            <constraint firstItem="VVe-Uw-JpX" firstAttribute="trailing" secondItem="pIV-Ug-Cb0" secondAttribute="trailing" constant="16" id="FiU-LU-w5u"/>
+                            <constraint firstItem="pIV-Ug-Cb0" firstAttribute="top" secondItem="ODM-cB-OlJ" secondAttribute="bottom" constant="16" id="Hnm-ty-hfo"/>
+                            <constraint firstItem="VVe-Uw-JpX" firstAttribute="trailing" secondItem="ODM-cB-OlJ" secondAttribute="trailing" constant="112" id="QsI-uO-MOY"/>
+                            <constraint firstItem="6vd-fy-xIn" firstAttribute="leading" secondItem="VVe-Uw-JpX" secondAttribute="leading" id="Sd6-qK-kfl"/>
+                            <constraint firstItem="ODM-cB-OlJ" firstAttribute="top" secondItem="6vd-fy-xIn" secondAttribute="bottom" constant="29" id="Svb-sF-9VE"/>
+                            <constraint firstItem="zcZ-SH-vrn" firstAttribute="leading" secondItem="VVe-Uw-JpX" secondAttribute="leading" constant="35" id="TBJ-VB-adQ"/>
+                            <constraint firstItem="Q4Y-mi-kFk" firstAttribute="leading" secondItem="VVe-Uw-JpX" secondAttribute="leading" id="Vh4-CP-nr9"/>
+                            <constraint firstItem="6vd-fy-xIn" firstAttribute="trailing" secondItem="VVe-Uw-JpX" secondAttribute="trailing" id="dg7-vY-kXo"/>
+                            <constraint firstItem="6vd-fy-xIn" firstAttribute="top" secondItem="VVe-Uw-JpX" secondAttribute="top" id="fvC-oH-xnS"/>
+                            <constraint firstItem="pIV-Ug-Cb0" firstAttribute="leading" secondItem="VVe-Uw-JpX" secondAttribute="leading" constant="16" id="o8z-dg-sJT"/>
+                            <constraint firstItem="4gl-Ul-E2y" firstAttribute="leading" secondItem="VVe-Uw-JpX" secondAttribute="leading" constant="35" id="wVt-34-0LL"/>
+                            <constraint firstItem="zcZ-SH-vrn" firstAttribute="top" secondItem="pIV-Ug-Cb0" secondAttribute="bottom" constant="22.329999999999998" id="wuD-46-cIJ"/>
+                            <constraint firstItem="4gl-Ul-E2y" firstAttribute="top" secondItem="zcZ-SH-vrn" secondAttribute="bottom" constant="22" id="xlU-xr-mvt"/>
+                            <constraint firstItem="ODM-cB-OlJ" firstAttribute="leading" secondItem="VVe-Uw-JpX" secondAttribute="leading" constant="112" id="yPw-9J-Efp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VVe-Uw-JpX"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="528"/>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="4gl-Ul-E2y" id="W88-rH-ELG"/>
+                        <outlet property="subtitleLabel" destination="pIV-Ug-Cb0" id="iHz-3a-uAT"/>
+                        <outlet property="typeIcon" destination="ODM-cB-OlJ" id="KUB-Kl-EVQ"/>
+                        <outlet property="typeLabel" destination="zcZ-SH-vrn" id="vVU-y9-kOW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X47-rx-isc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.875" y="123.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="WarningIcon" width="512" height="512"/>
+    </resources>
+</document>
