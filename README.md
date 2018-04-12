@@ -14,7 +14,7 @@ Audit works completely offline as it stores a copy of the news source database l
 
 ## Screenshots
 
-![iPad 1](Screenshots/NotCredible.png) ![iPad 2](Screenshots/Unknown.png) ![iPad 3](Screenshots/Credible.png)
+<img src="Screenshots/NotCredible.png" width="30%"></img> <img src="Screenshots/Unknown.png" width="30%"></img> <img src="Screenshots/Credible.png" width="30%"></img> 
 
 ## How do I use this app?
 
