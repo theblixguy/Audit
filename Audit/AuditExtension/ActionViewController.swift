@@ -28,7 +28,7 @@ class ActionViewController: UIViewController {
                         DispatchQueue.main.async {
                             self.typeLabel.text = result.title()
                             self.descriptionLabel.text = result.description()
-                            if result == AuditType.Unknown {
+                            if result == AuditType.Unknown || result == AuditType.Political {
                                 self.subtitleLabel.text = "This website may or may not be a reliable news source"
                                 self.typeIcon.image = UIImage(named: "UnknownIcon")
                             } else if result == AuditType.Reliable {
