@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		61A641601413DE3E822ECB54 /* Pods_Audit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C335DB95CEEFFF3BB4EA8D5 /* Pods_Audit.framework */; };
 		7C54C42D207A669B00C2E1C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C54C42C207A669B00C2E1C2 /* AppDelegate.swift */; };
 		7C54C42F207A669B00C2E1C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C54C42E207A669B00C2E1C2 /* ViewController.swift */; };
 		7C54C432207A669B00C2E1C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C54C430207A669B00C2E1C2 /* Main.storyboard */; };
@@ -20,7 +19,6 @@
 		7CBC783F207A988E008BC735 /* AuditType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBC783E207A988E008BC735 /* AuditType.swift */; };
 		7CBC7841207A9AB1008BC735 /* AuditUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBC7840207A9AB1008BC735 /* AuditUtils.swift */; };
 		7CBC7843207AA9D8008BC735 /* URLExtension+HostWithoutWWW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBC7842207AA9D8008BC735 /* URLExtension+HostWithoutWWW.swift */; };
-		BF9D4E383E061E855F7CF2B1 /* Pods_AuditExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8FEE1382AFE95A178D82C1 /* Pods_AuditExtension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,10 +46,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0897505AC0D1F82C6E9B19E2 /* Pods-AuditExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuditExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-AuditExtension/Pods-AuditExtension.release.xcconfig"; sourceTree = "<group>"; };
-		22EF7458932101DD174123A6 /* Pods-Audit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Audit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Audit/Pods-Audit.debug.xcconfig"; sourceTree = "<group>"; };
-		3D8FEE1382AFE95A178D82C1 /* Pods_AuditExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuditExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C335DB95CEEFFF3BB4EA8D5 /* Pods_Audit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Audit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C54C429207A669B00C2E1C2 /* Audit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Audit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C54C42C207A669B00C2E1C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C54C42E207A669B00C2E1C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,8 +60,6 @@
 		7CBC783E207A988E008BC735 /* AuditType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditType.swift; sourceTree = "<group>"; };
 		7CBC7840207A9AB1008BC735 /* AuditUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditUtils.swift; sourceTree = "<group>"; };
 		7CBC7842207AA9D8008BC735 /* URLExtension+HostWithoutWWW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLExtension+HostWithoutWWW.swift"; sourceTree = "<group>"; };
-		C2D5CBBBA396C095DB58D8D1 /* Pods-Audit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Audit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Audit/Pods-Audit.release.xcconfig"; sourceTree = "<group>"; };
-		D7622E7E4F9B7C661874D199 /* Pods-AuditExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuditExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AuditExtension/Pods-AuditExtension.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +67,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61A641601413DE3E822ECB54 /* Pods_Audit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,41 +74,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF9D4E383E061E855F7CF2B1 /* Pods_AuditExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2B2A04E84A2E05DFCCE2A09E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6C335DB95CEEFFF3BB4EA8D5 /* Pods_Audit.framework */,
-				3D8FEE1382AFE95A178D82C1 /* Pods_AuditExtension.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4BDFDD1490AF9F3549ECDBA8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				22EF7458932101DD174123A6 /* Pods-Audit.debug.xcconfig */,
-				C2D5CBBBA396C095DB58D8D1 /* Pods-Audit.release.xcconfig */,
-				D7622E7E4F9B7C661874D199 /* Pods-AuditExtension.debug.xcconfig */,
-				0897505AC0D1F82C6E9B19E2 /* Pods-AuditExtension.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		7C54C420207A669B00C2E1C2 = {
 			isa = PBXGroup;
 			children = (
 				7C54C42B207A669B00C2E1C2 /* Audit */,
 				7C54C443207A687C00C2E1C2 /* AuditExtension */,
 				7C54C42A207A669B00C2E1C2 /* Products */,
-				4BDFDD1490AF9F3549ECDBA8 /* Pods */,
-				2B2A04E84A2E05DFCCE2A09E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,11 +131,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C54C43B207A669D00C2E1C2 /* Build configuration list for PBXNativeTarget "Audit" */;
 			buildPhases = (
-				CB3F3C0F5230A3153FE2B3D0 /* [CP] Check Pods Manifest.lock */,
 				7C54C425207A669B00C2E1C2 /* Sources */,
 				7C54C426207A669B00C2E1C2 /* Frameworks */,
 				7C54C427207A669B00C2E1C2 /* Resources */,
-				9CABA7540DA995C55503D513 /* [CP] Embed Pods Frameworks */,
 				7C54C450207A687C00C2E1C2 /* Embed App Extensions */,
 			);
 			buildRules = (
@@ -184,7 +150,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C54C44F207A687C00C2E1C2 /* Build configuration list for PBXNativeTarget "AuditExtension" */;
 			buildPhases = (
-				3C6A51AAD48C0A08944F1A2E /* [CP] Check Pods Manifest.lock */,
 				7C54C43E207A687C00C2E1C2 /* Sources */,
 				7C54C43F207A687C00C2E1C2 /* Frameworks */,
 				7C54C440207A687C00C2E1C2 /* Resources */,
@@ -256,63 +221,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		3C6A51AAD48C0A08944F1A2E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AuditExtension-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9CABA7540DA995C55503D513 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Audit/Pods-Audit-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Audit/Pods-Audit-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CB3F3C0F5230A3153FE2B3D0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Audit-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7C54C425207A669B00C2E1C2 /* Sources */ = {
@@ -489,7 +397,6 @@
 		};
 		7C54C43C207A669D00C2E1C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22EF7458932101DD174123A6 /* Pods-Audit.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -497,10 +404,7 @@
 				DEVELOPMENT_TEAM = 97346KBR2S;
 				INFOPLIST_FILE = Audit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.suyashsrijan.Audit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -510,7 +414,6 @@
 		};
 		7C54C43D207A669D00C2E1C2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2D5CBBBA396C095DB58D8D1 /* Pods-Audit.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -518,10 +421,7 @@
 				DEVELOPMENT_TEAM = 97346KBR2S;
 				INFOPLIST_FILE = Audit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.suyashsrijan.Audit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -531,18 +431,13 @@
 		};
 		7C54C44D207A687C00C2E1C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7622E7E4F9B7C661874D199 /* Pods-AuditExtension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97346KBR2S;
 				INFOPLIST_FILE = AuditExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.suyashsrijan.Audit.AuditExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -553,18 +448,13 @@
 		};
 		7C54C44E207A687C00C2E1C2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0897505AC0D1F82C6E9B19E2 /* Pods-AuditExtension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97346KBR2S;
 				INFOPLIST_FILE = AuditExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.suyashsrijan.Audit.AuditExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

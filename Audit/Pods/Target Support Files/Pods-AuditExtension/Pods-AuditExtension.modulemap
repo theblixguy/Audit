@@ -1,6 +1,0 @@
-framework module Pods_AuditExtension {
-  umbrella header "Pods-AuditExtension-umbrella.h"
-
-  export *
-  module * { export * }
-}
